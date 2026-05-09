@@ -7,7 +7,7 @@ export class HelloController {
   index(@Req() req: Request, @Res() res: Response) {
     console.log(req.url);
     return res.status(200).json({
-      message: 'Hello world!',
+      message: 'Hello worlds!',
       protocol: req.protocol,
     });
   }
